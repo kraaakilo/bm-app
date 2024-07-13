@@ -1,0 +1,36 @@
+name: bm_app
+description: "Sample bills management app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  dio: ^5.4.0
+  get: ^4.6.6
+  url_launcher: ^6.2.3
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  flutter_native_splash: ^2.3.4
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/sbee.png"
+  min_sdk_android: 21
